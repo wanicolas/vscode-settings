@@ -1,0 +1,41 @@
+{
+  // Dpn't show the welcome page
+  "update.showReleaseNotes": false,
+  "workbench.startupEditor": "none",
+
+  // Sync keybindings across different platforms because I use both Linux and Windaube (I avoid as much as possible I swear)
+  "settingsSync.keybindingsPerPlatform": false,
+
+  "files.autoSave": "onFocusChange",
+
+  // Color and highlight brackets
+  "editor.guides.bracketPairs": true,
+  
+  // Live Server extension, don't show info message
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+  // Theme
+  "workbench.colorTheme": "Night Owl Light (No Italics)",
+  
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "on",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  
+  // Formatting
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // Update the other tag at the same time when one tag is edited in HTML or HTML-related language
+  "editor.linkedEditing": true
+}
